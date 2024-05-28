@@ -1,4 +1,3 @@
-# responsive-web-design
+# Responsive Web Design
 
-Responsive Web Design
 freeCodeCamp.org
