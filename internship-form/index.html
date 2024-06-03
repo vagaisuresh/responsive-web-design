@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Internship Form</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <h1>Internship Form</h1>
+        <p>If you're interested in working for Tiaano, you'll find every open role on our job portal.</p>
+        <form method="post" action="https://intern.tiaanosoft.com">
+            <fieldset>
+                <label for="first-name">First Name <input type="text" id="first-name" required /></label>
+                <label for="last-name">Last Name <input type="text" id="last-name" required /></label>
+                <label for="email">Email <input type="email" id="email" required /></label>
+                <label for="phone">Phone <input type="text" id="phone" required /></label>
+                <label for="college-name">College Name <input type="text" id="college-name" required /></label>
+                <label for="department">Department <input type="text" id="department" required /></label>
+            </fieldset>
+            <fieldset>
+                <label for="first-name">First Name <input type="text" id="first-name" name="first-name" required /></label>
+                <label for="last-name">Last Name <input type="text" id="last-name" name="last-name" required /></label>
+                <label for="email">Email <input type="email" id="email" name="email" required /></label>
+                <label for="phone">Phone <input type="text" id="phone" name="email" required /></label>
+                <label for="college-name">College Name <input type="text" id="college-name" name="college-name" required /></label>
+                <label for="department">Department <input type="text" id="department" name="department" required /></label>
+            </fieldset>
+            <fieldset>
+                <label for="area-of-interest">Area of Interest <input type="text" id="area-of-interest" name="area-of-interest" required /></label>
+                <label for="location-preference">Location Preference <input type="text" id="location-preference" name="location-preference" required /></label>
+                <label for="start-date">Start Date <input type="date" id="start-date" name="start-date" required /></label>
+                <label for="end-date">End Date <input type="date" id="end-date" name="end-date" required /></label>
+            </fieldset>
+            <fieldset>
+                <label for="qualification">Degree/Qualification
+                    <select id="qualification" name="qualification">
+                        <option value=""></option>
+                        <option value="1">10th</option>
+                        <option value="2">12th</option>
+                        <option value="3">Graduation</option>
+                        <option value="4">Post-graduation</option>
+                    </select>
+                </label>
+                <label for="course-name">Course Name <input type="text" id="course-name" name="course-name" required /></label>
+                <label for="year-of-passing">Year of Passing
+                    <select id="year-of-passing" name="year-of-passing">
+                        <option value=""></option>
+                        <option value="2015">2015</option>
+                        <option value="2016">2016</option>
+                        <option value="2017">2017</option>
+                        <option value="2018">2018</option>
+                        <option value="2019">2019</option>
+                        <option value="2020">2020</option>
+                    </select>
+                </label>
+                <label for="score">Score
+                    <input type="number" id="score" name="score" required />
+                    <select id="score-unit" name="score-unit">
+                        <option value="1">Percentage</option>
+                        <option value="2">CGPA</option>
+                    </select>
+                </label>
+            </fieldset>
+            <label for="consent">
+                <input type="checkbox" id="consent" name="consent" class="inline" required /> I consent to processing of my personal data entered above for you to contact me.
+            </label>
+            <p class="privacy">Refer to the <a href="https://www.tiaanosoft.com">Privacy Notice</a> for further details on how your personal data will be processed and how your consent can be managed.</p>
+            <input type="submit" value="Submit" />
+        </form>
+    </body>
+</html>
