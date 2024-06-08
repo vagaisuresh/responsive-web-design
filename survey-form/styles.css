@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.header {
+    background-color: #0a0a23;
+    border-bottom: 4px solid #fdb347;
+    color: #fff;
+    text-align: center;
+    padding: 32px;
+}
+
+.container {
+    margin: 30px;
+}
+
+.header h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+form {
+    width: 100%;
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+fieldset {
+    border: none;
+    margin: 15px auto;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+input, select, textarea {
+    border: 1px solid gray;
+    width: 100%;
+    min-height: 30px;
+    margin: 5px 0;
+}
+
+textarea {
+    height: 80px;
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+
+input[type="checkbox"] {
+    display: inline;
+    width: unset;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
+    margin: -5px 0.5em 0 0;
+    vertical-align: middle;
+}
+
+input[type="radio"] {
+    display: inline;
+    width: unset;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
+    margin: -5px 0.5em 0 0;
+    vertical-align: middle;
+}
+
+input[type="submit"] {
+    display: block;
+    border: none;
+    background-color: rgb(39, 167, 124);
+    color: white;
+    font-weight: bold;
+    width: 50%;
+    margin: 0 auto;
+}

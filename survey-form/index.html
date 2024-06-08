@@ -7,43 +7,47 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <h1 id="title">Employee Satisfaction Survey</h1>
-    <p id="description">Please give your valuable feedback to help us to improve our compaany.</p>
-    <form method="post" action="register-demo.freecodecamp.org" id="survey-form">
-      <fieldset>
-        <label id="name-label" for="name">Your Name <input type="text" id="name" name="name" placeholder="Enter your Name" required /></label>
-        <label id="email-label" for="email">Email <input type="email" id="email" name="email" placeholder="Enter your Email" required /></label>
-        <label id="number-label" for="experience">Experience in this company <input type="number" id="experience" name="experience" min="1" max="40" placeholder="Enter your Experience" /></label>
-        <label for="role">Which option best describes your current role?
-          <select id="dropdown">
-            <option value="">Select an role</option>
-            <option>Vice President</option>
-            <option>General Manager</option>
-            <option>Manger</option>
-            <option>Engineer</option>
-            <option>Executive</option>
-          </select>
-      </fieldset>
-      <fieldset>
-        <legend>How would you describe your overall level of job satisfaction?</legend>
-        <label for="satisfaction-sat"><input type="radio" id="satisfaction-sat" name="satisfaction" checked /> Satisfied</label>
-        <label for="satisfaction-neut"><input type="radio" id="satisfaction-neut" name="satisfaction" /> Neutral</label>
-        <label for="satisfaction-dis"><input type="radio" id="satisfaction-dis" name="satisfaction" /> Dissatisfied</label>
-      </fieldset>
-      <fieldset>
-        <legend>What is your favorite feature of our company?</legend>
-        <label for="salary"><input type="checkbox" id="salary" name="salary" /> Salary</label>
-        <label for="health"><input type="checkbox" id="health" name="health" /> Health Benefits</label>
-        <label for="physical"><input type="checkbox" id="physical" name="physical" /> Physical Work Environment</label>
-        <label for="leadership"><input type="checkbox" id="leadership" name="leadership" /> Senior Leadership</label>
-        <label for="individual"><input type="checkbox" id="individual" name="individual" /> Individual Management</label>
-        <label for="recognition"><input type="checkbox" id="recognition" name="recognition" /> Recognition</lebel>
-        <label for="training"><input type="checkbox" id="training" name="training" /> Training Opportunities</label>
-      </fieldset>
-      <fieldset>
-        <label for="comments">Please provide any additional comments <textarea id="comments" name="comments" placeholder="Comments or Suggestions"></textarea>
+    <header class="header">
+      <h1 id="title">Employee Satisfaction Survey</h1>
+      <p id="description">Please give your valuable feedback to help us to improve our compaany.</p>
+    </header>
+    <div class="container">
+      <form method="post" action="register-demo.freecodecamp.org" id="survey-form">
+        <fieldset>
+          <label id="name-label" for="name">Your Name <input type="text" id="name" name="name" placeholder="Enter your Name" required /></label>
+          <label id="email-label" for="email">Email <input type="email" id="email" name="email" placeholder="Enter your Email" required /></label>
+          <label id="number-label" for="experience">Experience in this company <input type="number" id="experience" name="experience" min="1" max="40" placeholder="Enter your Experience" /></label>
+          <label for="role">Which option best describes your current role?
+            <select id="dropdown">
+              <option value="">Select an role</option>
+              <option>Vice President</option>
+              <option>General Manager</option>
+              <option>Manger</option>
+              <option>Engineer</option>
+              <option>Executive</option>
+            </select>
         </fieldset>
-      <input type="submit" id="submit" value="Submit" />
-    </form>
+        <fieldset>
+          <legend>How would you describe your overall level of job satisfaction?</legend>
+          <label for="satisfaction-sat"><input type="radio" id="satisfaction-sat" name="satisfaction" checked /> Satisfied</label>
+          <label for="satisfaction-neut"><input type="radio" id="satisfaction-neut" name="satisfaction" /> Neutral</label>
+          <label for="satisfaction-dis"><input type="radio" id="satisfaction-dis" name="satisfaction" /> Dissatisfied</label>
+        </fieldset>
+        <fieldset>
+          <legend>What is your favorite feature of our company?</legend>
+          <label for="salary"><input type="checkbox" id="salary" name="salary" /> Salary</label>
+          <label for="health"><input type="checkbox" id="health" name="health" /> Health Benefits</label>
+          <label for="physical"><input type="checkbox" id="physical" name="physical" /> Physical Work Environment</label>
+          <label for="leadership"><input type="checkbox" id="leadership" name="leadership" /> Senior Leadership</label>
+          <label for="individual"><input type="checkbox" id="individual" name="individual" /> Individual Management</label>
+          <label for="recognition"><input type="checkbox" id="recognition" name="recognition" /> Recognition</lebel>
+          <label for="training"><input type="checkbox" id="training" name="training" /> Training Opportunities</label>
+        </fieldset>
+        <fieldset>
+          <label for="comments">Please provide any additional comments <textarea id="comments" name="comments" placeholder="Comments or Suggestions"></textarea>
+          </fieldset>
+        <input type="submit" id="submit" value="Submit" />
+      </form>
+    </div>
   </body>
 </html>
