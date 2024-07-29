@@ -33,7 +33,10 @@ body {
     height: auto;
     max-width: 100%;
   }
-  
+  figcaption {
+    padding-top: 10px;
+  }
+
   .container {
     padding: 20px 50px;
     text-align: center;
@@ -50,4 +53,5 @@ body {
   }
   .link-text {
     font-weight: bold;
+    padding: 15px 0;
   }
