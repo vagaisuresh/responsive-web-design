@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Learn More About CSS Pseudo Selectors by Building A Balance Sheet</title>
+    <title>Balance Sheet</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
+
 <body>
     <main>
         <section>
@@ -25,8 +28,8 @@
                     <thead>
                         <tr>
                             <td></td>
-                            <th class="current"><span class="sr-only year">2019</span></th>
-                            <th class="current"><span class="sr-only year">2020</span></th>
+                            <th><span class="sr-only year">2019</span></th>
+                            <th><span class="sr-only year">2020</span></th>
                             <th class="current"><span class="sr-only year">2021</span></th>
                         </tr>
                     </thead>
@@ -75,7 +78,8 @@
                             <td class="current">$0</td>
                         </tr>
                         <tr class="data">
-                            <th>Expenses <span class="description">Annual anticipated expenses, such as payroll.</span></th>
+                            <th>Expenses <span class="description">Annual anticipated expenses, such as payroll.</span>
+                            </th>
                             <td>$200</td>
                             <td>$300</td>
                             <td class="current">$400</td>
@@ -97,12 +101,25 @@
                 <table>
                     <caption>Net Worth</caption>
                     <thead>
-
+                        <tr>
+                            <td></td>
+                            <th><span class="sr-only">2019</span></th>
+                            <th><span class="sr-only">2020</span></th>
+                            <th><span class="sr-only">2021</span></th>
+                        </tr>
                     </thead>
-                    <tbody></tbody>
+                    <tbody>
+                        <tr class="total">
+                            <th>Total <span class="sr-only">Net Worth</span></th>
+                            <td>$-171</td>
+                            <td>$136</td>
+                            <td class="current">$334</td>
+                        </tr>
+                    </tbody>
                 </table>
             </div>
         </section>
     </main>
 </body>
+
 </html>
